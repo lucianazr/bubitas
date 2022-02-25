@@ -82,22 +82,32 @@ button:hover{
     background-color: #C46AEB;
 }
 .container{
-    width: 80%;
+    width: 1450px;
     margin: 0 auto;
     max-width: 1032px;
+    justify-content: center;
+    align-items: center;
 }
 .inicio{
     border: 3px;
-    margin: 0%;
+    margin: 5px;
     padding: 10px;
     max-width: 400px;
-    box-shadow: 0 10px 30px 10px;}
+    box-shadow: 0 10px 30px 10px;
+justify-content: space-around ;
+align-items: baseline ;
+align-content: space-around;
+}
+.lema{
+    width: 1450px;
+}
+    
 
 .flexbox{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    
+    width: 1450px;
 }
 footer{
     padding: 5px;
