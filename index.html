@@ -17,6 +17,8 @@
     <!--Fav icon-->
     <link rel="shortcurt icon" href="images/bubitasLogo.png">
     <title>Bubitas</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
   <header>
@@ -42,21 +44,39 @@
        </div>
   </header>
   <main >
-    <div class="container">
-     <div>
-         <p class="lema">En la búsqueda de infancias libres y crianzas respetuosas</p>
-     </div>
-     <div class="flexbox">
-     <div class="inicio">
-         <img src="images/productos.png" alt="productos" class="imagen">
-         <a href="pages/productos.html"><button href="pages/productos.html" >Ver más</button></a>
-     </div>
-     <div class="inicio">
-         <img src="images/Sale.png" alt="sale" class="imagen">
-         <a href="pages/sale.html"><button href="pages/sale.html">Ver más</button></a>
-     </div>
-    </div>
-   </div>
+      
+        <div>
+          <p class="lema">En la búsqueda de infancias libres y crianzas respetuosas</p>
+        </div>
+
+        <div class="grid" style="--bs-columns: 4; --bs-gap: 1rem;">
+          <div class="p-4 bg-light border">
+          <div class="g-col-2">
+            <div class="justify-content-center">
+            <div class="row">
+              <img src="images/productos.png" alt="productos" class="imagen">
+              <a class="btn btn-primary" href="#" role="button">Ver más</a>
+            </div>
+          </div>
+        </div>
+          </div>
+        <div class="p-4 bg-light border">
+          <div class="g-col-2">
+            <div class="justify-content-center">
+            <div class="row">
+              <img src="images/Sale.png" alt="sale" class="imagen">
+              <a class="btn btn-primary" href="#" role="button">Ver más</a>
+            </div>
+          </div>
+        </div>
+        </div>
+          
+          
+        </div>
+      
+        </div>
+      
+
   </main>
   <footer>
     <div>
@@ -65,6 +85,9 @@
     <div class="logo">
        <a href="www.instagram.com/bubitas.indumentaria.infantil"><img src="/images/instagram-2-1-logo-svgrepo-com.svg" alt=""></a>
       </div>
-</footer>  
+</footer> 
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
